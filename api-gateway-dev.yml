@@ -4,7 +4,7 @@ zuul:
     client001:
       path: /client1/**
       serviceId: client001
-      sensitiveHeaders:
+      #sensitiveHeaders:
 
   #设置client001服务接口不对外
   ignored-patterns:
