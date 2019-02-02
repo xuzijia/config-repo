@@ -4,5 +4,3 @@ spring:
     username: guest
     password: guest
     port: 5672
-dev: "测试自动刷新..."
-username: simple-dev
