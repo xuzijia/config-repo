@@ -7,5 +7,5 @@ zuul:
       sensitiveHeaders:
 
   #设置client001服务接口不对外
-  ignored-patterns:
-  - /**/app/getDev
+#  ignored-patterns:
+#  - /**/app/getDev
