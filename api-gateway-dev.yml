@@ -1,5 +1,7 @@
 #配置api网关
 zuul:
+  #所有服务请求允许携带cookie
+  sensitive-headers:
   routes:
     client001:
       path: /client1/**
